@@ -43,10 +43,10 @@
             // Player
             // 
             this.Player.Enabled = true;
-            this.Player.Location = new System.Drawing.Point(6, 232);
+            this.Player.Location = new System.Drawing.Point(1, 12);
             this.Player.Name = "Player";
             this.Player.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Player.OcxState")));
-            this.Player.Size = new System.Drawing.Size(883, 55);
+            this.Player.Size = new System.Drawing.Size(896, 275);
             this.Player.TabIndex = 0;
             // 
             // textBox1
@@ -130,6 +130,7 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Multiselect = true;
             // 
             // Form1
             // 
